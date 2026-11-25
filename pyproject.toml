@@ -1,0 +1,10 @@
+[project]
+name = "xy-cpu"
+version = "0.1.0"
+description = "Symulacja Monte Carlo dwuwymiarowego modelu XY na CPU"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "matplotlib",
+    "numba>=0.62,<0.66",
+    "numpy>=1.26,<3",
+]
